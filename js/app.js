@@ -89,7 +89,7 @@ window.addEventListener("load", () => {
     tl.to(
       ".loader-parent .child-span-1 ",
       {
-        left: "70.5%",
+        left: "73.5%",
         top: "50%",
         opacity: 1,
         stagger: 0.5,
@@ -101,7 +101,7 @@ window.addEventListener("load", () => {
       .to(
         ".loader-parent .child-span-2 ",
         {
-          left: "83.5%",
+          left: "78.5%",
           opacity: 1,
           stagger: 0.5,
           duration: 1,
@@ -112,7 +112,7 @@ window.addEventListener("load", () => {
       .to(
         ".loader-parent .child-span-3 ",
         {
-          left: "93%",
+          left: "95.9%",
           opacity: 1,
           stagger: 0.5,
           duration: 1,
@@ -120,18 +120,18 @@ window.addEventListener("load", () => {
         },
         "loader-animation"
       )
-      .to(
-        ".loader-parent .child-span-4 ",
-        {
-          delay: 0.8,
-          left: "97%",
-          opacity: 1,
-          stagger: 0.5,
-          duration: 1,
-          ease: "Expo.easeInOut",
-        },
-        "loader-animation"
-      )
+      // .to(
+      //   ".loader-parent .child-span-4 ",
+      //   {
+      //     delay: 0.8,
+      //     left: "97%",
+      //     opacity: 1,
+      //     stagger: 0.5,
+      //     duration: 1,
+      //     ease: "Expo.easeInOut",
+      //   },
+      //   "loader-animation"
+      // )
       .to(
         ".loader-parent span",
         {
