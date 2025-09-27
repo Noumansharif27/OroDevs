@@ -89,7 +89,7 @@ window.addEventListener("load", () => {
     tl.to(
       ".loader-parent .child-span-1 ",
       {
-        left: "73.5%",
+        left: "74.5%",
         top: "50%",
         opacity: 1,
         stagger: 0.5,
@@ -101,7 +101,7 @@ window.addEventListener("load", () => {
       .to(
         ".loader-parent .child-span-2 ",
         {
-          left: "78.5%",
+          left: "77.9%",
           opacity: 1,
           stagger: 0.5,
           duration: 1,
@@ -112,7 +112,7 @@ window.addEventListener("load", () => {
       .to(
         ".loader-parent .child-span-3 ",
         {
-          left: "95.9%",
+          left: "91.9%",
           opacity: 1,
           stagger: 0.5,
           duration: 1,
